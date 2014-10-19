@@ -5,14 +5,14 @@ for authentication of users with username+password.
 
 # Use
 
-`git clone https://github.com/caasjj/passport-local-demo.js`
-`cd passport-local-demo`
-`node passport-local-demo`
+* `git clone https://github.com/caasjj/passport-local-demo.js`
+* `cd passport-local-demo`
+* `node passport-local-demo`
 
 You will also need to set up a *Mongo* dB either locally or at [mongolab](https://mongolab.com/).
 
 
-Then, simply use a REST client such as `curl` or [Postman](https://twitter.com/postmanclient) to use the server 'api'
+Then, simply update your database info in `db.js`, and then use a REST client such as `curl` or [Postman](https://twitter.com/postmanclient) to use the server 'api'
 at the following routes:
 
 * get  /        : responds with 'Hello World',
